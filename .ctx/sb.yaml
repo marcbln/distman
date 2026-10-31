@@ -1,0 +1,9 @@
+# sb project configuration (see `sb man git/worktree`).
+# This file is shared by every checkout; commit it.
+worktree:
+  # Branch or ref new worktrees start from. When unset, sb probes
+  # origin/HEAD, origin/main, origin/master, main, master.
+  # base: main
+  # Untracked or ignored files copied into a new worktree, relative to the
+  # primary checkout. Tracked files are never copied.
+  copy: []
