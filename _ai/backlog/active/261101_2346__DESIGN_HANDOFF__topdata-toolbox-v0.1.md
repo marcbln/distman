@@ -130,7 +130,8 @@ decisions that only matter for this effort, the rejected options, and what remai
   may trip SmartScreen/AV.
 - `tar.zst` requires the `zstd`/`tar` crates in the toolbox; humans unpacking
   artifacts by hand need `zstd` or `distman fetch`.
-- The egui production handout (`_ai/handout-egui.md`) is binding for UI code:
+- The egui production handout (`handout-egui.md` in the `topbox` repo, `_ai/`) is
+  binding for UI code:
   no blocking on the UI thread, visibility-gated repaints, `tray-icon`,
   `LSUIElement`, `windows_subsystem`, bundled fonts, Wayland placement caveats.
 - `installed.json` is the only source of truth for install state; the filesystem
