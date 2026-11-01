@@ -6,4 +6,13 @@ hard-to-reverse technical decisions, one file per decision named
 
 ## Index
 
-_No decisions recorded yet._
+### 2026
+
+- `ADR__261101-1__static-per-target-release-manifest.md` — static fileserver
+  contract with one manifest per target, atomic publish order.
+- `ADR__261101-2__portable-versioned-dir-installs.md` — tar.zst payloads,
+  versioned install directories, no OS installers, instant rollback.
+- `ADR__261101-3__egui-tray-toolbox.md` — egui/eframe + tray-icon, tokio workers,
+  glow, no webview.
+- `ADR__261101-4__tailnet-auth-server-side-filtering.md` — tailnet as v1 auth,
+  client renders server-filtered manifests, IAM-ready.
